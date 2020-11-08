@@ -8,6 +8,7 @@ class ScoreParser:
     url_map = {
         "mlb": "http://www.espn.com/mlb/bottomline/scores",
         "nba": "http://www.espn.com/nba/bottomline/scores",
+        "ncaaf": "http://www.espn.com/college-football/bottomline/scores",
     }
 
     def __init__(self, sport_string):
